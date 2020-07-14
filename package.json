@@ -1,0 +1,40 @@
+{
+  "name": "pizza_coronel",
+  "version": "1.0.0",
+  "description": "Convert pml code to readable code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "watch": "webpack --watch --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Prince Amante Coronel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "cors": "^2.8.5",
+    "css-loader": "^3.6.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "multer": "^1.4.2",
+    "pug": "^3.0.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.1.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "style-loader": "^1.2.1",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "html-webpack-pug-plugin": "^2.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
