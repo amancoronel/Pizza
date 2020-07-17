@@ -19,7 +19,7 @@ export class Header extends Component {
                 <hr />
                 <Navbar className="navbar-expand-md navbar-light bg-light sticky-top">
                     <Container className="container-fluid">
-                        <NavbarBrand inline="true"><h1>LOGO</h1></NavbarBrand>
+                        <NavbarBrand inline="true">PIZZA</NavbarBrand>
                         <NavbarToggle data-toggle="collapse" data-target="#navbarResponsive">
                             <span>Click Me</span> 
                         </NavbarToggle>
