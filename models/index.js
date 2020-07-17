@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 mongoose.Promise = require('bluebird').Promise;
 
-const connection = mongoose.createConnection("mongodb://localhost/pizza_order", {
+const dbUrl = "mongodb+srv://amancoronel:Aman040397@coronelcluster.pzawr.mongodb.net/pizza?retryWrites=true&w=majority"
+
+const connection = mongoose.createConnection(dbUrl, {
     "useNewUrlParser": true,
     "useCreateIndex": true,
     // "useUnifiedTopology": false,
