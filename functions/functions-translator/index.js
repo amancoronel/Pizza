@@ -17,7 +17,7 @@ exports.translateObjData = async (object) => {
         newObject.order.pizza.push(
             {
                 number : order.attrib.number,
-                size : (orde.size) ? order.size[0] : "large",
+                size : (order.size) ? order.size[0] : "large",
                 crust: (order.crust) ? order.crust[0] : "hand-tossed",
                 type : (order.type) ? order.type[0] : "pepperoni feast",
                 toppings : (order.type[0] === "custom") ? await exports.processToppings(order.toppings) : []
